@@ -1,37 +1,123 @@
 <!DOCTYPE html>
-    <body lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <title> Exercicio 27 - Painel de Gestão de Estoque </title>
-    </head>
+<body lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title> Exercicio 27 - Painel de Gestão de Estoque </title>
+</head>
+    <header>
+        <h1> Centro de Distribuição - Controle de Estoque </h1>
         <hr>
-            <header>
-                <h1> Centro de Distribuição - Controle de Estoque </h1>
-                <hr>
-            </header>
-            <aside>
-            <h3> Menu de Sistemas </h3>
-            <ul>
-                <li><a href"#">Visão Geral</a></li>
-                <li><a href"#">Entrada de Materiais</a></li>
-                <li><a href"#">Inventário</a></li>
-                <li><a href"#">Relatórios</a></li>
-            </ul>
-        <hr>
-        </aside>
-        <main>
-            <section>
-                <h2> Cadastrar Novo Item no Estoque </h2>
-                    <form>
-                        <label for="sku">Código SKU:</label><br>
-                        <input type="text" id="sku" placeholder="Ex: ELE-001" required><br><br>
+    </header>
+    <aside>
+    <h3> Menu de Sistemas </h3>
+    <ul>
+        <li><a href="#">Visão Geral</a></li>
+        <li><a href="#">Entrada de Materiais</a></li>
+        <li><a href="#">Inventário</a></li>
+        <li><a href="#">Relatórios</a></li>
+    </ul>
+<hr>
+</aside>
+<main>
+    <section>
+        <h2> Cadastrar Novo Item no Estoque </h2>
+        <form>
+            <label for="sku">Código SKU:</label><br>
+            <input type="text" id="sku" placeholder="Ex: ELE-001" required><br><br>
 
-                        <label for="produto"> Nome do produto: </label>
-                        <input type="text" id="produto" placeholder="Nome do Item" required><br><br>
+            <label for="produto"> Nome do Produto:</lable><br>
+            <input type="text" id="produto" placeholder="Nome do Item" required><br><br>
 
-                        <label for="categoria"></label>
-                    </form>
-            </section>
-        </main>
-    </body>
+            <label for="categoria">Categoria</label><br>
+            <select id="categoria" required>
+                <option value="">Selecione uma categoria.....</option>
+                <option value="eletronicos">Eletronicos</option>
+                <option value="ferramentas">Ferramentas</option>
+                <option value="embalagens">Embalagens</option>
+                <option value="escritorio">Escritório</option>
+            </select><br><br>
+
+            <label for="Quantidade">Quantidade</label><br>
+            <input type="number" id="Quantidade" min="1" required><br><br>
+
+            <label for="preço">Preço</label><br>
+            <input type="number" id="preço" step="0.01" min="0" placeholder="0.00" required><br><br>
+
+            <label for="data_recebimento">Data de Recebimento</label><br>
+            <input type="date" id="data_recebimento" required><br><br>
+
+            <button type="submit">Cadastrar Item</button>
+            <button type="reset">Limpar Campos</button>
+
+
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2> Inventário Atual </h2>
+        <table border="1">
+            <thead>
+             <tr>
+                <th> SKU </th>
+                <th> Item </th>
+                <th> Categoria </th>
+                <th> Qtd em Estoque </th>
+                <th> Preços Unitarios </th>
+                <th> Status </th>
+             </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th> ELE-102 </th>
+                <th> Teclado USB </th>
+                <th> Eletronicos </th>
+                <th> 45 </th>
+                <th> R$ 120,00 </th>
+                <th> Disponivel </th>
+                </tr><tr>
+                <th> ELE-122 </th>
+                <th> Processador </th>
+                <th> Eletronicos </th>
+                <th> 20 </th>
+                <th> R$ 700,00 </th>
+                <th> Disponivel </th>
+                </tr><tr>
+                <th> ELA-101 </th>
+                <th> Chave Inglesa </th>
+                <th> Ferramentas </th>
+                <th> 37 </th>
+                <th> R$ 30,00 </th>
+                <th> Disponivel </th>
+                </tr><tr>
+                <th> PAU-222 </th>
+                <th> Ar Condicionado </th>
+                <th> Eletronicos/Escritório </th>
+                <th> 5 </th>
+                <th> R$ 5000,00 </th>
+                <th> Disponivel </th>
+                </tr><tr>
+                <th> ELE-102 </th>
+                <th> Pallet </th>
+                <th> Embalagens </th>
+                <th> 100 </th>
+                <th> R$ 60,00 </th>
+                <th> Disponivel </th>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3"><strong> Total em Estoque:</strong></td>
+                    <td colspan="3"><strong> 207 Itens </strong></td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+</main>
+<hr>
+<footer>
+    <p> &copy; 2026 Arthur Rodrigues Gerhard.</p>
+</footer>
+</body>
 </html>

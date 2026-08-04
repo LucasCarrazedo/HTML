@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<body lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title> Exercicio 28 - Painel de Atendimento </title>
+</head>
+<body>
+    <header>
+        <h1> Central de Suporte Ti </h1>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <h2> Resumop Operacional </h2>
+            <ul>
+                <li><strong> Chamados Abertos: </strong></li>
+                <li><strong> Em Atendimento: </strong></li>
+                <li><strong> Concluímos Hoje: </strong></li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2> Abrir um Chamado: </h2>
+            <form>
+                <label for="solicitante">Nome do solicitante:</label><br>
+                <input type="text" id="solicitante" required><br><br>
+
+                <label for="setor">Setor:</label><br>
+                <select id="setor" required>
+                    <option value="">Selecione o setor...</option>
+                    <option value="financeiro">Financeiro</option>
+                    <option value="rh">Recursos Humanos</option>
+                    <option value="produção">Produção</option>
+                    <option value="venda">Vendas</option>
+                    </select><br><br>
+
+                    <label> Prioridade do Chamado: </label><br>
+                    <input type="radio" id="p_baixa" name="prioridade" value="baixa">
+                    <label for="p_baixa">Baixa</label>
+
+                    <input type="radio" id="p_media" name="prioridade" value="media">
+                    <label for="p_media">Media</label>
+
+                    <input type="radio" id="p_alta" name="prioridade" value="alta">
+                    <label for="p_alta">Alta</label>
+
+                    <input type="radio" id="p_critica" name="prioridade" value="critica">
+                    <label for="p_critica">Crítica</label><br><br>
+
+                    <label> Equipamentos Envolvidos: </label><br>
+                    <input type="checkbox" id="eq_monitor" value="monitor">
+                    <label for="eq_monitor">Monitor</label>
+
+                    <input type="checkbox" id="eq_perifericos" value="perifericos">
+                    <label for="eq_perifericos">Teclado/Mouse</label>
+
+                    <input type="checkbox" id="eq_pc" value="computador">
+                    <label for="eq_pc">PC</label>
+                    
+                    <input type="checkbox" id="eq_moveis" value="moveis">
+                    <label for="eq_moveis">Cadeiras/Mesas</label>
+
+                    <input type="checkbox" id="eq_impressora" value="impressora">
+                    <label for="eq_impressora">Impressora</label>
+
+                    <label for="descricao"> Descrição detalhada: </label><br>
+                    <textarea id="descricao" rows="4" cols="50" placeholder="Descrevao o erro..." required></textarea><br><br>
+            </form>
+        </section>
+    </main>
+</body> 
