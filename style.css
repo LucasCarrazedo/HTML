@@ -126,7 +126,7 @@ select{
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid white;
+    border: 1px solid grey;
     border-radius: 6px;
     font-size: 0,95rem;
 }
@@ -143,5 +143,12 @@ button {
     font-size: 0.95rem;
     cursor: pointer;
     margin-right: 10px;
-
+}
+button[type="submit"]{
+    background-color: blue;
+    color: white;
+}
+button[type="submit"]:hover{
+    background-color: blue;
+    color: white;
 }
