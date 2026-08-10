@@ -193,5 +193,13 @@ tbody tr:nth-child(even){
 
 /* Destaca Linhas ao passar o mouse */
 tbody tr:hover {
-    background-color: whitesmoke;
+    background-color: lightgray;
+}
+
+tfoot{
+    background-color: white;
+}
+
+tfoot{
+    border-bottom: none;
 }
