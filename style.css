@@ -149,5 +149,5 @@ button[type="submit"]{
     color: white;
 }
 button[type="submit"]:hover{
-    background-color: blue;
+    background-color: darkblue;
 }
