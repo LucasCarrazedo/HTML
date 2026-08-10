@@ -7,7 +7,7 @@ box-sizing: border-box
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: gray;
     color: white;
     line-height: 1.6;
     padding: 20px;
@@ -20,7 +20,7 @@ hr {
 
 /* Cabeçalho */
 header {
-    background-color: gray;
+    background-color: white;
     color: blue;
     padding: 20px;
     border-radius: 8px;
