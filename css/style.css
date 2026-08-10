@@ -14,3 +14,7 @@ body {
 }
 
 /* Ocultando linhas <hr> */ 
+
+hr {
+    display: none;
+}
