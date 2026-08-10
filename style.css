@@ -156,3 +156,6 @@ button[type="reset"]{
     background-color: white;
     color: grey;
 }
+button[type="reset"]:hover {
+    background-color: whitesmoke; 
+}
