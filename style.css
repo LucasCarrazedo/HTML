@@ -151,3 +151,8 @@ button[type="submit"]{
 button[type="submit"]:hover{
     background-color: darkblue;
 }
+
+button[type="reset"]{
+    background-color: white;
+    color: grey;
+}
