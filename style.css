@@ -169,7 +169,7 @@ table{
 }
 
 table, th, td{
-    border: 1px solid grey;
+    border: none;
 }
 
 thead {
@@ -181,4 +181,7 @@ th,td {
     text-align: left;
     border-bottom: 1px solid white;
 }
-
+th {
+    color: darkslategray;
+    font-weight: 600;
+}
