@@ -130,6 +130,7 @@ select{
     border-radius: 6px;
     font-size: 0,95rem;
 }
+
 input:focus, select:focus{
     outline: none;
     border-color: blue;
@@ -144,10 +145,12 @@ button {
     cursor: pointer;
     margin-right: 10px;
 }
+
 button[type="submit"]{
     background-color: blue;
     color: white;
 }
+
 button[type="submit"]:hover{
     background-color: darkblue;
 }
@@ -156,6 +159,7 @@ button[type="reset"]{
     background-color: white;
     color: grey;
 }
+
 button[type="reset"]:hover {
     background-color: whitesmoke; 
 }
