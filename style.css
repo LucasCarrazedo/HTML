@@ -103,3 +103,10 @@ section{
     border: 1px solid white;
 }
 
+section h2{
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: black;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
