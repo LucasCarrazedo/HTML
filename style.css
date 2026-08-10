@@ -168,3 +168,11 @@ table{
     font-size: 0.9rem;
 }
 
+table, th, td{
+    border: 1px solid grey;
+}
+
+thead {
+    background-color: darkgray;
+}
+
