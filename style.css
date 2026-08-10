@@ -21,7 +21,7 @@ hr {
 
 /* Cabeçalho */
 header {
-    background-color: #050505;
+    background-color: #ca0f0f;
     color: #ffffff;
     padding: 20px;
     border-radius: 8px;
@@ -35,9 +35,10 @@ header h1{
 
 /* Rodapé */
 footer {
-text-align: center;
-padding: 20px;
-color: #3275d3;
-font-size: 0.875rem;
-margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    color: #3275d3;
+    font-size: 0.875rem;
+    margin-top: 30px;
+
 }
