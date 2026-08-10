@@ -110,3 +110,23 @@ section h2{
     border-bottom: 2px solid white;
     padding-bottom: 10px;
 }
+
+/* Campos de entrada e botões */
+form label {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: grey
+}
+
+/* Aplica o estilo a todos os inputs */
+input [type="text"],
+input [type="number"],
+input [type="date"],
+select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 0,95rem;
+}
