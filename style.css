@@ -185,3 +185,13 @@ th {
     color: darkslategray;
     font-weight: 600;
 }
+
+/* Linhas Zebradas */
+tbody tr:nth-child(even){
+    background-color: white;
+}
+
+/* Destaca Linhas ao passar o mouse */
+tbody tr:hover {
+    background-color: whitesmoke;
+}
