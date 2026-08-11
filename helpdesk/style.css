@@ -158,5 +158,8 @@ th, td {
     vertical-align: middle;
 }
 
-td
+th {
+    color: #475569;
+    font-weight: 600;
+}
 
