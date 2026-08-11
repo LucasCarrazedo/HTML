@@ -92,3 +92,8 @@ textarea{
     font-size: 0.95rem;
     font-size: inherit;
 }
+
+textarea {
+    resize: vertical;
+}
+
