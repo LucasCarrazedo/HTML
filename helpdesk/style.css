@@ -97,3 +97,18 @@ textarea {
     resize: vertical;
 }
 
+input:focus, select:focus, text:focus {
+    outline: none;
+    border-color: blue;
+}
+
+input[type="radio"]
+input[type="checkbox"]{
+    margin-right: 4px;
+    margin-left: 10px;
+}
+
+input[type="radio"]:first-of-type
+input[type="checkbox"]:first-of-type{
+    margin-left: 0;
+}
