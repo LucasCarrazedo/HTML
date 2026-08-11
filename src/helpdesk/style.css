@@ -163,3 +163,10 @@ th {
     font-weight: 600;
 }
 
+tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+tbody tr:hover{
+    background-color: #f1f5f9;
+}
