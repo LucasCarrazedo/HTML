@@ -137,6 +137,18 @@ button[type="reset"] {
     color: #475569;
 }
 
-button[type="reset"] {
-    background-color: whitesmoke;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.9rem;
 }
+
+table, th, td {
+    border: none;
+}
+
+thead {
+    background-color: #f8fafc;
+}
+
