@@ -109,6 +109,13 @@ input[type="checkbox"]{
 }
 
 input[type="radio"]:first-of-type
-input[type="checkbox"]:first-of-type{
+input[type="checkbox"]:first-of-type {
     margin-left: 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    
 }
