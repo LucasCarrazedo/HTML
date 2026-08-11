@@ -15,10 +15,27 @@ body{
 hr {
     display: none;
 }
+/* Cor chamados recentes */
 header {
     background-color: black;
     color: white;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
+}
+header h1 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    color: grey;
+    font-size: 0.85rem;
+    margin-top: 30px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
