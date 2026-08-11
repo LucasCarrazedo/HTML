@@ -67,3 +67,26 @@ section ul {
     flex-wrap: wrap;
     gap: 15px;
 }
+
+section li {
+    background-color: white;
+    padding: 10 px 15px;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+form label {
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: black;
+}
+
+input [type="text"]
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid white;
+    
+}
